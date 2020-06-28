@@ -7,3 +7,5 @@
 enabled_site_setting :giphy_enabled
 
 register_asset 'stylesheets/giphy.scss'
+
+register_svg_icon 'far-play-circle' if respond_to?(:register_svg_icon)
